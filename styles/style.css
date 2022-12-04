@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+a, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+img, svg {
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: "Roboto", Georgia, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+}
+
+.container {
+    max-width: 1440px;
+    min-width: 320px;
+
+}
+
+.header {
+    background-image: url(/assets/images/background.png);
+    background-repeat: no-repeat;
+}
+
+.header-top {
+    display: grid;
+    height: 60px;
+    padding: 0 30px;
+    grid-template-columns: 79px 1fr 157px 80px;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+}
+
+.header-menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.header-menu li {
+    line-height: 14px;
+}
+
+.header-menu li+li {
+    margin-left: 62px;
+}
+
+.header-btn {
+    height: 40px;
+    line-height: 14px;
+    color: #FFFFFF;
+    background-color: #6F2CFF;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.header-link {
+    justify-self: end;
+    line-height: 14px;
+}
+
+.header-info {
+    display: grid;
+    height: 695px;
+    padding-top: 134px;
+    padding-left: 115px;
+    grid-template-columns: 460px;
+    grid-template-rows: 40px 61px 91px 124px 45px;
+}
+
+.header-small-text {
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.heading-black {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 61px;
+}
+
+.heading-blue {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 54px;
+    color: #6F2DFF;
+}
+
+.header-text {
+    width: 438px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.header-text span {
+    font-weight: bold;
+}
+
+.header-email-btn {
+    display: grid;
+    grid-template-columns: 268px 187px;
+}
+
+.email {
+    width: 268px;
+    height: 45px;
+    background-color: #FFFFFF;
+    border: 1px solid #6F2CFF;
+    border-radius: 27.5px 0px 0px 27.5px;
+}
+
+.email::placeholder {
+    padding: 13px 127px 11px 26px;
+    font-size: 15px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.27);
+}
+
+.header-info-btn {
+    width: 187px;
+    height: 45px;
+    font-size: 15px;    
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #6F2CFF;
+    border-radius: 0px 27.5px 27.5px 0px;
+    cursor: pointer;
+}
+
+.brands {
+    display: grid;
+    height: 204px;
+    padding: 35px 115px 20px 115px;
+    grid-template-rows: 65px 66px 24px;
+    grid-template-columns: 102px 97px 95px 115px 53px 115px 102px 115px;
+    justify-content: space-between;
+}
+
+.brands-heading {
+    grid-column: 1 / -1;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #1C1C1C;
+}
+
+.brands-link {
+    grid-column: 1 / -1;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1C1C1C;
+}
